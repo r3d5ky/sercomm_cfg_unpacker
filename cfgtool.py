@@ -70,7 +70,7 @@ def main():
     if args.unpack:
         unpack(args.file, args.raw)
     elif args.pack:
-        pack(args.file, args.be)
+        pack(args.file, args.big)
 
     print("Done!")
 
